@@ -1,0 +1,25 @@
+body
+{
+	margin: 5px auto;
+	padding: 5px;
+	max-width: 720px;
+	
+	font-family: 'Titillium Web', sans-serif;
+	border: 1px solid #000;
+}
+a
+{
+}
+ul.header-menu
+{
+	list-style: none;
+	padding: 0px;
+}
+li.header-menu
+{
+	display: inline-block;
+}
+div.content
+{
+	padding: 5px;
+}

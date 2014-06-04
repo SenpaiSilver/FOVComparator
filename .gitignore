@@ -1,0 +1,14 @@
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Apache2
+.htpasswd
+
+# Notepad++ session file ###
+session.npps
+
+# Other
+_*
+adsense.js
