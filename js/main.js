@@ -10,7 +10,7 @@ function initSlides()
 	$("#slides").hide();
 }
 
-function retreiveGameList()
+function retrieveGameList()
 {
 	$.get("./Games/List", function(data, status){
 		gameList = data;
@@ -21,7 +21,7 @@ function retreiveGameList()
 	}, "json");
 }
 
-function retreiveGame(gamename){
+function retrieveGame(gamename){
 	gamename = gamename.replace("#", "");
 	$.get("./Games/", {game: gamename, info: true}, function(data, status){
 		processGamePage(data);
@@ -64,16 +64,16 @@ function processGamePage(data)
 
 $(document).ready(function() {
 	initSlides();
-	retreiveGameList();
+	retrieveGameList();
 	
 	$(window).on("hashchange", function(){
 		$("#slides").html("");
 		if (window.location.hash != "")
-			retreiveGame(window.location.hash);
+			retrieveGame(window.location.hash);
 		else
 			$("#slides").hide();
 	});
 	
 	if (window.location.hash != "")
-		retreiveGame(window.location.hash);
+		retrieveGame(window.location.hash);
 });
