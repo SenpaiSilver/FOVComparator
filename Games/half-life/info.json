@@ -1,6 +1,6 @@
 {
 	"NAME": "Half-Life",
-	"DESC": "It's a good game !<br />It's all about science and stuff !",
+	"DESC": "To tweak the FOV enable the console and type `default_fov <int>`.",
 	"STORE": "http://store.steampowered.com/app/70/",
 	"SLIDES": [
 		{

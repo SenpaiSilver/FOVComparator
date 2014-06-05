@@ -67,6 +67,7 @@ $(document).ready(function() {
 	retreiveGameList();
 	
 	$(window).on("hashchange", function(){
+		$("#slides").html("");
 		if (window.location.hash != "")
 			retreiveGame(window.location.hash);
 		else
