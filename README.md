@@ -27,6 +27,8 @@ Packages are folders located in `/Games/` that require at least a `info.json` fi
 
 In `SLIDES` the key represented the FOV and the value the screenshot.
 
+A sample Package is already located in the `Games` folder.
+
 # Dependecies
 
 Only [jQuery](http://jquery.com/) is required.
