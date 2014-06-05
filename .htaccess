@@ -2,3 +2,4 @@ Options +FollowSymlinks
 RewriteEngine	On
 
 RewriteRule			^.git.*$			./ [L]
+RewriteRule			^Games/List/?$			./Games/?list [L]

@@ -2,7 +2,7 @@ body
 {
 	margin: 5px auto;
 	padding: 5px;
-	max-width: 720px;
+	width: 720px;
 	
 	font-family: 'Titillium Web', sans-serif;
 	border: 1px solid #000;
@@ -10,14 +10,54 @@ body
 a
 {
 }
+img.screenshot
+{
+	max-width: 620px;
+	margin: auto;
+	background: #000000;
+	border: 10px solid #000000;
+}
+label.fov:after
+{
+	content: "°";
+}
+label.fov
+{
+	width: 640px;
+	padding-top: 0px;
+	padding-right: 10px;
+	width: 60px;
+	text-align: right;
+	display: block;
+	margin-bottom: 10px;
+	color: #FFFFFF;
+	background: #000000;
+	position: relative;
+	top: -15px;
+	left: 570px;
+}
+ul.screenshot
+{
+	list-style: none;
+}
+li.screenshot
+{
+	width: 640px;
+	margin-bottom: 10px;
+	padding-bottom: 0px;
+}
 ul.header-menu
 {
 	list-style: none;
 	padding: 0px;
+	margin-top: 0px;
 }
 li.header-menu
 {
+	border: 1px dashed #000000;
 	display: inline-block;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 div.content
 {
