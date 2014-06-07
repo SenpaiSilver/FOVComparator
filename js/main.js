@@ -35,11 +35,12 @@ function processGamePage(data)
 	var index = 0;
 	var gamePath = window.location.href.replace(window.location.hash, "") + "Games/" + window.location.hash.replace("#", "");
 	var gamePic = 0;
+	//var parseCode = new RegExp('/(`.*`)//gi');
 	
 	setList = data["SLIDES"];
 	
 	$("#title").text(data["NAME"]);
-	$("#content").html(data["DESC"]);
+	$("#content").html(data["DESC"].replace(/`(.*)`/g, '<div class="code">$1</div>'));
 	for (index = 0; index < setList.length; ++index)
 	{
 		++mainindex;
