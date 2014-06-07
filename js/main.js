@@ -22,7 +22,7 @@ function retrieveGameList()
 }
 
 function retrieveGame(gamename){
-	gamename = gamename.replace("#", "");
+	gamename = gamename.replace("#", "").replace(" ", "%20");
 	$.get("./Games/", {game: gamename, info: true}, function(data, status){
 		processGamePage(data);
 		$("#slides").show();
