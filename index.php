@@ -23,7 +23,7 @@
 		</div>
 		<h2 id="title">What is FOV ?</h2>
 		<div id="content">
-			<p>What's so serious ?</p>
+			<p>FOV stands for Field Of View, it's the extent of the observable world seen at any given moment. Find out more on <a href="http://en.wikipedia.org/wiki/Field_of_view">Wikipedia.</a></p>
 		</div>
 		<div id="slides">
 		</div>
