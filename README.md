@@ -1,10 +1,12 @@
-# FOVComparator
+FOVComparator
+=============
 
 FOVComparator is all about comparing the FOV in different games.
 
 To add more game you must add a Package.
 
-# Packages
+Packages
+========
 
 Packages are folders located in `/Games/` that require at least a `info.json` file such as:
 
@@ -25,10 +27,11 @@ Packages are folders located in `/Games/` that require at least a `info.json` fi
 		]
 	}
 
-In `SLIDES` the key represented the FOV and the value the screenshot.
+In `SLIDES` the key represented the FOV and the value the screenshot file or the YouTube link.
 
 A sample Package is already located in the `Games` folder.
 
-# Dependecies
+Dependecies
+===========
 
 Only [jQuery](http://jquery.com/) is required.
